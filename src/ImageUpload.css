@@ -25,6 +25,10 @@
 .imageLogoAndText p {
   margin-bottom: 0px;
 }
+.imageLogoAndText img {
+  width: 300px;
+  height: 300px;
+}
 
 .imageUploadInput {
   opacity: 0;
