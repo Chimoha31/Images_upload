@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
-import ImageLogo from "./image.svg";
+import upload from "./images/upload.png";
 import "./ImageUpload.css";
 
 const ImageUploader = () => {
@@ -12,7 +12,7 @@ const ImageUploader = () => {
       </div>
       <div className="imageUplodeBox">
         <div className="imageLogoAndText">
-          <img src={ImageLogo} alt="imagelogo" />
+          <img src={upload} alt="imagelogo" />
           <p>Drug & Drop here</p>
         </div>
         <input className="imageUploadInput" multiple name="imageURL" />
